@@ -1,2 +1,11 @@
 # hello-world
 i'm trying to do it
+#!/usr/bin/python
+import wx
+ 
+app = wx.App()
+ 
+frame = wx.Frame(None, -1, 'simple.py')
+frame.Show()
+ 
+app.MainLoop()
